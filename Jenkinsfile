@@ -3,13 +3,17 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-        yarn build
+        sh '''
+          yarn build
+        '''
       }
     }
     stage('Deploy') {
       steps {
-        cd /tmp
-        ls
+        sh '''
+          cd /tmp
+          ls
+        '''
       }
     }
   }
