@@ -1,3 +1,9 @@
-# 我的博客
+# Zhou's Blog
 
-使用gatsby搭建
+```bash
+# 输出
+yarn build
+
+# 本地
+yarn dev
+```
